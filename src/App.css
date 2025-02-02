@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,148 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #000;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgb(163, 8, 8);
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  float: left;
+  margin: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 70px;
+  height: 100px;
+}
+
+a{
+  color: red;
+}
+
+.label{
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.form input{
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: large;
+  border: none;
+}
+
+.form {
+  background-color: rgb(85, 53, 53);
+  color: whitesmoke;
+  display: flex;
+  max-width: 350px;
+  border-radius: 6px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  padding: 25px;
+  margin-left: 45px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.submit button{
+  align-items: center;
+  justify-items: center;
+  padding: 10px 35px;
+  border-radius: 50px;
+  background-color: yellow;
+  color: #000;
+  font-weight: bolder;
+  border: none;
+}
+
+.submit button:active{
+  background-color: #000;
+  color: yellow;
+}
+
+.description{
+  display: inline-block;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+.display-on-page{
+  border: red solid 1px;
+  background: #000;
+  padding: 20px 25px;
+  border-radius: 10px;
 }

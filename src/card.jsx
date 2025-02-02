@@ -12,7 +12,7 @@ export default function Card() {
                     <br />
                     <br />
                     <br />
-                    <span>Kindly submit your details for <br />any inquiries and subscriptions</span>
+                    <span>Kindly submit your details for <br /> joining the Neflix community and subscriptions.</span>
 
                 </div>
 
